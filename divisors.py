@@ -5,5 +5,6 @@ def get_divisors(n):
             divisors.append(i)
     return divisors
 
+
 if __name__ == "__main__":
     print(get_divisors(12))

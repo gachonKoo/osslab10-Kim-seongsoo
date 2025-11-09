@@ -1,6 +1,6 @@
-def get_divisors(n):
+def divisors(n):
     return [i for i in range(1, n + 1) if n % i == 0]
 
 
 if __name__ == "__main__":
-    print(get_divisors(12))
+    print(divisors(12))
